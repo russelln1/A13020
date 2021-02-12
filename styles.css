@@ -57,6 +57,8 @@ hr.solid {
       height:150px; width:200px; text-align:center;
     }
 
+/*To style the product details list to have 2 columns across the screen*/
+
   .custom-list{
     column-count:2;
   }
