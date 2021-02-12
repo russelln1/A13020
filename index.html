@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel ="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <script src = "js/bootstrap.bundle.min.js">
+        </script>
+       
+        <link rel = "stylesheet" href = "styles.css">
+    </head>
+
+    
+    <body>
+<!--Navbar From Bootstrap-->
+        <header>
+            <!-- nav bar-->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"><img src="images/logo.png" alt="B Market Logo"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Shop</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Categories
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Men</a></li>
+                          <li><a class="dropdown-item" href="#">Women</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Kids</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true">Contact Us</a>
+                      </li>
+                      <ul class ="navbar-nav ml-auto">
+                        <button type="button" class="btn btn-primary btn-sm">Your Cart (0)</button>
+                      </ul>
+                    </ul>
+                    <form class="d-flex">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+            
+            <hr> 
+            
+   
+         
+            
+        </header>
+
+
+<!--Main Page and brief description of product-->
+<div class="container">
+    <div class = "row">
+        <div class="col">
+            <img src = "images/shoes_ia711025.jpg" alt = "Product Picture" >
+        </div>
+        <div class="col">
+            <h1>Nike Men's Run Swift 2 Running Shoe</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Curabitur gravida
+               arcu ac tortor dignissim convallis aenean. Sem nulla pharetra diam sit amet. Ultrices vitae auctor eu augue.</p>
+            <br>
+            <h2>$94.99</h2>
+            
+            <br>
+           <!--Dropdown button from bootstrap-->
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                  Sizes
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">8.0</a></li>
+                  <li><a class="dropdown-item" href="#">9.0</a></li>
+                  <li><a class="dropdown-item" href="#">10.0</a></li>
+                </ul>
+              </div>
+              <br> 
+              <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                  Colors
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">Black</a></li>
+                  <li><a class="dropdown-item" href="#">Grey</a></li>
+                  <li><a class="dropdown-item" href="#">White</a></li>
+                </ul>
+                <button type="button" class="btn btn-primary">Add to Cart</button>
+              </div>
+        </div>
+      
+        </div>
+        </div>
+        <!--Line divider-->
+        <hr class = "solid">
+        <!--List of product details-->
+        <h3>Product Details</h3>
+        <ul class = "product-details">
+            <li>Breathable mesh upper in a running shoe style with a round toe</li>
+            <li>Flywire lace up cables for a secure fit</li>
+            <li>Padded collar and tongue for added comfort</li>
+            <li>Midfoot lockdown and support through woven mesh panels</li>
+            <li>Open-hole design in forefoot and heel for a nice cooling effect</li>
+            <li>Soft fabric lining with foam cushioned comfort footbed</li>
+            <li>Phylon midsole is lightweight while still offering support</li>
+            <li>Synthetic traction outsole with waffle pistons for enhanced support and an easy stride</li>
+        </ul>
+        <br>
+        <!--Suggestion Section-->
+        <h4>Other shoes you might like</h4>
+        <br>
+        <div class="row">
+          <div class="column">
+            <div id="divpic">
+            <img src="images/nike1.jpg" alt="Nike Men's Court Vision Mid Sneaker">
+            <span class ="photoDesc">Nike Men's Court Vision Mid Sneaker</span>
+            <br>
+            <span class = "price"> $99.99</span>
+          </div>
+          </div>
+          <div class="column">
+            <div id="divpic">
+            <img src="images/nike2.jpg" alt="Men's Quest 3 Running Shoe">
+            <span class ="photoDesc">Men's Quest 3 Running Shoe</span>
+            <br>
+            <span class = "price"> $99.99</span>
+            </div>
+          </div>
+          <div class="column">
+            <div id="divpic">
+            <img src="images/nike3.jpg" alt="Air Mavin Low Basketball Shoe">
+            <span class ="photoDesc">Air Mavin Low Basketball Shoe</span>
+            <br>
+            <span class = "price"> $87.99</span>
+            </div>
+          </div>
+          <div class="column">
+            <div id ="divpic">
+            <img src="images/nike4.jpg" alt="Nike Precision III Basketball Shoe">
+            <span class ="photoDesc">Nike Precision III Basketball Shoe</span>
+            <br>
+            <span class = "price"> $89.99</span>
+            </div>
+          </div>
+        </div>
+    </body>
+    </html>

@@ -1,0 +1,57 @@
+
+
+body{margin:5px}
+
+/* NavBar Styling*/
+a{
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.navbar {
+    background:white;
+    padding: 3rem 2rem;
+    height: 0rem;
+    min-height: 10vh;
+
+}
+
+
+/* Line divider*/
+
+hr.solid {
+    border-top: 3px solid #bbb;
+  }
+
+  
+  .column {
+    float: left;
+    width: 25%;
+    padding: 5px;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  /* Responsive layout - makes the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+    .column {
+      width: 100%;
+    }
+  }
+/* Aligning text with products under suggestions*/
+  .photoDesc{
+      font-size:1em;
+     font-weight: bold;
+  }
+  .price{
+      font: size 1em;
+      
+  }
+
+  #divpic{
+      height:150px; width:200px; text-align:center;
+    }
