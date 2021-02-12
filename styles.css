@@ -1,6 +1,6 @@
 
 
-body{margin:5px}
+body{margin:10px}
 
 /* NavBar Styling*/
 a{
@@ -23,7 +23,8 @@ hr.solid {
     border-top: 3px solid #bbb;
   }
 
-  
+  /*Picture alignment for suggestion section*/
+
   .column {
     float: left;
     width: 25%;
